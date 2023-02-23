@@ -1,0 +1,301 @@
+[
+    {
+        "name": "INFO",
+        "station_codes": [],
+        "transfer_data": [],
+        "line": "EWL",
+        "cars": 6,
+        "doors_per_car": 8,
+        "bounds": [
+            {
+                "bound": "1/3",
+                "towards": "Pasir Ris/Changi Airport"
+            },
+            {
+                "bound": "2",
+                "towards": "Tuas Link"
+            }
+        ]
+    },
+    {
+        "name": "Jurong East",
+        "station_codes": [
+            "NS1",
+            "EW24"
+        ],
+        "transfer_data": [
+            {
+                "bound": "1/3",
+                "transfer_to_line": "NSL",
+                "door": "0",
+                "info": "cross platform",
+                "time": 10
+            },
+            {
+                "bound": "2",
+                "transfer_to_line": "NSL",
+                "door": "0",
+                "info": "cross platform",
+                "time": 10
+            }
+        ]
+    },
+    {
+        "name": "Buona Vista",
+        "station_codes": [
+            "CC22",
+            "EW21"
+        ],
+        "transfer_data": [
+            {
+                "bound": "1/3",
+                "transfer_to_line": "CCL",
+                "door": "6",
+                "info": "down, B2",
+                "time": 170
+            },
+            {
+                "bound": "2",
+                "transfer_to_line": "CCL",
+                "door": "19",
+                "info": "down, B2",
+                "time": 170
+            }
+        ]
+    },
+    {
+        "name": "Outram Park",
+        "station_codes": [
+            "EW16",
+            "NE3",
+            "TE17"
+        ],
+        "transfer_data": [
+            {
+                "bound": "1/3",
+                "transfer_to_line": "NEL",
+                "door": "13",
+                "info": "down, B4",
+                "time": 170
+            },
+            {
+                "bound": "2",
+                "transfer_to_line": "NEL",
+                "door": "12",
+                "info": "down, B4",
+                "time": 170
+            },
+            {
+                "bound": "1/3",
+                "transfer_to_line": "TEL",
+                "door": "?",
+                "info": "down/up, take either underpass or go up to concourse level (B1; faster route) to transfer to TEL platform",
+                "time": 110
+            },
+            {
+                "bound": "2",
+                "transfer_to_line": "TEL",
+                "door": "?",
+                "info": "down/up, take either underpass or go up to concourse level (B1; faster route) to transfer to TEL platform",
+                "time": 110
+            }
+        ]
+    },
+    {
+        "name": "Raffles Place",
+        "station_codes": [
+            "NS26",
+            "EW14"
+        ],
+        "transfer_data": [
+            {
+                "bound": "1/3",
+                "transfer_to_line": "NSL",
+                "door": [
+                    "0",
+                    "9/16"
+                ],
+                "info": [
+                    "cross platform, for train towards Jurong East",
+                    "down, B4 for train towards Marina South Pier"
+                ],
+                "time": [
+                    10,
+                    50
+                ]
+            },
+            {
+                "bound": "2",
+                "transfer_to_line": "NSL",
+                "door": [
+                    "0",
+                    "?"
+                ],
+                "info": [
+                    "cross platform, for train towards Marina South Pier",
+                    "up, B3 for train towards Jurong East"
+                ],
+                "time": [
+                    10,
+                    50
+                ]
+            }
+        ]
+    },
+    {
+        "name": "City Hall",
+        "station_codes": [
+            "NS25",
+            "EW13"
+        ],
+        "transfer_data": [
+            {
+                "bound": "1/3",
+                "transfer_to_line": "NSL",
+                "door": [
+                    "0",
+                    "?"
+                ],
+                "info": [
+                    "cross platform, for train towards Marina South Pier",
+                    "up, B2 for train towards Jurong East"
+                ],
+                "time": [
+                    10,
+                    50
+                ]
+            },
+            {
+                "bound": "2",
+                "transfer_to_line": "NSL",
+                "door": [
+                    "0",
+                    "?"
+                ],
+                "info": [
+                    "cross platform, for train towards Jurong East",
+                    "down, B3 for train towards Marina South Pier"
+                ],
+                "time": [
+                    10,
+                    50
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bugis",
+        "station_codes": [
+            "EW12",
+            "DT14"
+        ],
+        "transfer_data": [
+            {
+                "bound": "1/3",
+                "transfer_to_line": "DTL",
+                "door": "9/18",
+                "info": "down, B5 (linkway at B3)",
+                "time": 240
+            },
+            {
+                "bound": "2",
+                "transfer_to_line": "DTL",
+                "door": "7/16",
+                "info": "down, B5 (linkway at B3)",
+                "time": 240
+            }
+        ]
+    },
+    {
+        "name": "Paya Lebar",
+        "station_codes": [
+            "EW8",
+            "CC9"
+        ],
+        "transfer_data": [
+            {
+                "bound": "1/3",
+                "transfer_to_line": "CCL",
+                "door": "24",
+                "info": "down, B2",
+                "time": 160
+            },
+            {
+                "bound": "2",
+                "transfer_to_line": "CCL",
+                "door": "1",
+                "info": "down, B2",
+                "time": 160
+            }
+        ]
+    },
+    {
+        "name": "Tanah Merah",
+        "station_codes": [
+            "EW4",
+            "CG"
+        ],
+        "transfer_data": [
+            {
+                "bound": "1/3",
+                "transfer_to_line": "CGL",
+                "door": "0",
+                "info": "cross platform",
+                "time": 10
+            },
+            {
+                "bound": "2",
+                "transfer_to_line": "CGL",
+                "door": "0",
+                "info": "cross platform",
+                "time": 10
+            }
+        ]
+    },
+    {
+        "name": "Tampines",
+        "station_codes": [
+            "EW2",
+            "DT32"
+        ],
+        "transfer_data": [
+            {
+                "bound": "1/3",
+                "transfer_to_line": "DTL",
+                "door": "7",
+                "info": "down, L1>B3 (tap out at L1 take Exit A, walk to DTL and enter via Exit D, head to B3)",
+                "time": 380
+            },
+            {
+                "bound": "2",
+                "transfer_to_line": "DTL",
+                "door": "18",
+                "info": "down, L1>B3 (tap out at L1 take Exit A, walk to DTL and enter via Exit D, head to B3)",
+                "time": 380
+            }
+        ]
+    },
+    {
+        "name": "Expo",
+        "station_codes": [
+            "CG1",
+            "DT35"
+        ],
+        "transfer_data": [
+            {
+                "bound": "1/3",
+                "transfer_to_line": "DTL",
+                "door": "13",
+                "info": "down, B3 (linkway at B1)",
+                "time": 170
+            },
+            {
+                "bound": "2",
+                "transfer_to_line": "DTL",
+                "door": "12",
+                "info": "down, B3 (linkway at B1)",
+                "time": 170
+            }
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "name" : "Tanjong Pagar",
+        "station_codes": [
+            "EW15"
+        ],
+        "walk_transfer_data": [
+            {
+                "transfer_to_line": "DTL",
+                "transfer_to_station_code": "DT18",
+                "transfer_to_station": "Telok Ayer",
+                "time": 480
+            }
+        ]
+    },
+    {
+        "name" : "Raffles Place",
+        "station_codes": [
+            "EW14"
+        ],
+        "walk_transfer_data": [
+            {
+                "transfer_to_line": "DTL",
+                "transfer_to_station_code": "DT18",
+                "transfer_to_station": "Telok Ayer",
+                "time": 300
+            },
+            {
+                "transfer_to_line": "DTL",
+                "transfer_to_station_code": "DT17",
+                "transfer_to_station": "Downtown",
+                "time": 420
+            },
+            {
+                "transfer_to_line": "NEL",
+                "transfer_to_station_code": "NE4",
+                "transfer_to_station": "Chinatown",
+                "time": 660
+            },
+            {
+                "transfer_to_line": "NEL",
+                "transfer_to_station_code": "NE5",
+                "transfer_to_station": "Clarke Quay",
+                "time": 600
+            }
+        ]
+    },
+    {
+        "name" : "City Hall",
+        "station_codes": [
+            "EW13"
+        ],
+        "walk_transfer_data": [
+            {
+                "transfer_to_line": "CCL",
+                "transfer_to_station_code": "CC3",
+                "transfer_to_station": "Esplanade",
+                "time": 300
+            },
+            {
+                "transfer_to_line": "CCL",
+                "transfer_to_station_code": "CC2",
+                "transfer_to_station": "Bras Basah",
+                "time": 420
+            }
+        ]
+    },
+    {
+        "name" : "Bugis",
+        "station_codes": [
+            "EW12"
+        ],
+        "walk_transfer_data": [
+            {
+                "transfer_to_line": "CCL",
+                "transfer_to_station_code": "CC3",
+                "transfer_to_station": "Esplanade",
+                "time": 660
+            },
+            {
+                "transfer_to_line": "CCL",
+                "transfer_to_station_code": "CC2",
+                "transfer_to_station": "Bras Basah",
+                "time": 600
+            },
+            {
+                "transfer_to_line": "DTL",
+                "transfer_to_station_code": "DT22",
+                "transfer_to_station": "Jalan Besar",
+                "time": 540
+            }
+        ]
+    }
+]
